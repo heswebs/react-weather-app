@@ -1,0 +1,60 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("./weather.jpg") no-repeat;
+  background-position: 0% 65%;
+}
+.form-n-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(1, 1, 1, 0.1);
+  color: antiquewhite;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px gray solid;
+  height: 30px;
+  box-sizing: border-box;
+  background: transparent;
+  color: antiquewhite;
+  text-indent: 10px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: antiquewhite;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: antiquewhite;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: antiquewhite;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: antiquewhite;
+}
+button {
+  height: 30px;
+  color: antiquewhite;
+  background: darkslategrey;
+  border: none;
+  cursor: pointer;
+}
